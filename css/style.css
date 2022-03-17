@@ -1,4 +1,4 @@
-body{
+*{
     margin: 0;
     padding: 0;;
     box-sizing: border-box;
@@ -7,15 +7,62 @@ body{
     max-width: 1440px;
     margin: auto;
 }
-/*CLEAN*/
-.cleanfix::after{
-    content: "";
-    display: table;
-    clear: both;
-}
 /*HEADER*/
 .header__content{
     background-color: #e579e6;
-    min-height: 250px;
-    margin-bottom: 20px;
+    min-height: 142px;
+    margin-bottom: 30px;
+    margin-top: 24px;
 }
+/*F.HEADER*/
+/*MAIN*/
+.main__content1{
+    background-color: #e1d67a;
+    min-height: 500px;
+    margin-bottom: 30px;
+}
+/*F.MAIN*/
+/*MAIN2*/
+.main__content2{
+    background-color: #0086ff;
+}
+.main__content2.header{
+    background-color: #abcfe7;
+    min-height: 86px;
+    margin-bottom: 25px;
+}
+
+.main__content2.part1 {
+    background-color: #abcfe7;
+    min-height: 540px;
+    width: calc(20% - 20px);
+    margin-right: 20px;
+    float: left;
+    margin-bottom: 25px;
+}
+.main__content2.part2{
+    background-color: #abcfe7;
+    min-height: 540px;
+    width: 60%;
+    float: left;
+}
+.main__content2.part3{
+    background-color: #abcfe7;
+    min-height: 540px;
+    width:calc(20% - 20px);
+    margin-left: 20px;
+    float: left;
+}
+.cleanfix{
+    clear: both;
+}
+/*F.MAIN2*/
+/*FOOTER*/
+.footer__content{
+    background-color: #8801fe;
+    margin-bottom: 32px;
+    margin-top: 10px;
+    min-height: 60px;
+    clear: both;
+}
+/*F.FOOTER*/
