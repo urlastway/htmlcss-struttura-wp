@@ -45,6 +45,7 @@ body{
     min-height: 540px;
     width: 60%;
     float: left;
+    margin-bottom: 25px;
 }
 .main__content2.part3{
     background-color: #abcfe7;
@@ -52,6 +53,7 @@ body{
     width:calc(20% - 20px);
     margin-left: 20px;
     float: left;
+    margin-bottom: 25px;
 }
 .cleanfix{
     clear: both;
