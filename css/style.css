@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+    padding: 0;;
+    box-sizing: border-box;
+}
+body{
+    max-width: 1440px;
+    margin: auto;
+}
+/*CLEAN*/
+.cleanfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+/*HEADER*/
+.header__content{
+    background-color: #e579e6;
+    min-height: 250px;
+    margin-bottom: 20px;
+}
