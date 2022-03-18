@@ -26,13 +26,13 @@ body{
 .main__content2{
     background-color: #0086ff;
 }
-.main__content2.header{
+.header{
     background-color: #abcfe7;
     min-height: 86px;
     margin-bottom: 25px;
 }
 
-.main__content2.part1 {
+.part1 {
     background-color: #abcfe7;
     min-height: 540px;
     width: calc(20% - 20px);
@@ -40,14 +40,14 @@ body{
     float: left;
     margin-bottom: 25px;
 }
-.main__content2.part2{
+.part2{
     background-color: #abcfe7;
     min-height: 540px;
     width: 60%;
     float: left;
     margin-bottom: 25px;
 }
-.main__content2.part3{
+.part3{
     background-color: #abcfe7;
     min-height: 540px;
     width:calc(20% - 20px);
@@ -55,7 +55,9 @@ body{
     float: left;
     margin-bottom: 25px;
 }
-.cleanfix{
+.cleanfix::after{
+    content: "";
+    display: table;
     clear: both;
 }
 /*F.MAIN2*/
@@ -65,6 +67,5 @@ body{
     margin-bottom: 32px;
     margin-top: 10px;
     min-height: 60px;
-    clear: both;
 }
 /*F.FOOTER*/
